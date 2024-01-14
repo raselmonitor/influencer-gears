@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Shared styles */
+.text-light-gray {
+    font-size: 1rem;
+    color: #3A3A3A;
+    font-weight: 400;
+}
+
+/* header Related styles */
+
+header {
+    padding: 70px 120px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav h2 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #3A3A3A;
+}
+
+nav>ul {
+    display: flex;
+    gap: 30px;
+}
+
+nav>ul li {
+    list-style: none;
+    font-weight: 600;
+
+}
+
+nav>ul li a {
+    text-decoration: none;
+    color: #3A3A3A
+}
+
+.banner-container {
+    display: flex;
+    align-items: center;
+    margin-top: 80px;
+    gap: 100px;
+
+}
+
+.banner-contain {
+    width: 60%;
+}
+
+.banner-title {
+    color: #3A3A3A;
+    font-size: 3.15rem;
+    font-weight: 700;
+}
+
+.banner-image {
+    background-image: url('images/Circle\ design.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.banner-image img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.banner-btm {
+    border-radius: 41px;
+    background: #E02C6D;
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+    border-style: none;
+    padding: 10px 24px;
+    cursor: pointer;
+    margin-top: 25px;
+}
+
+button:hover {
+    background-color: #860333;
+}
+
+/* Sponsor Related Styles */
+
+.sponsor-container {
+    max-width: 75%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 0.5px solid #c7c7c7;
+    border-top: 0.5px solid #c7c7c7;
+    padding: 33px 0px;
+}
+
+/* Product sales Related styles */
+
+.product-container {
+    max-width: 75%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.product-info {
+    max-width: 75%;
+    margin: 0px auto;
+    color: #3A3A3A;
+    font-size: 1.75rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.product-list {
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+}
+
+.product-list img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.list-title {
+    color: #18191F;
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin-bottom: 6px;
+}
+
+.list-subtitle {
+    color: #000000DE;
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.list-star {
+    color: #FB8200;
+    margin-top: 7px;
+}
+
+.list-dsp {
+    color: #787885;
+    font-family: Inter;
+    font-size: 0.87rem;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.see-more {
+    max-width: 75%;
+    margin: 0px auto;
+    text-align: end;
+    margin-top: 20px;
+}
+
+.see-more a {
+    text-decoration: none;
+    color: rgba(224, 44, 109, 0.87);
+    font-family: Poppins;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+/* Join Now Related styles */
+
+.join-container {
+    max-width: 75%;
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 100px;
+    align-items: center;
+}
+
+.join-image img {
+    object-fit: contain;
+}
+
+.join-title {
+    color: #0A0826;
+    font-size: 1.95rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.join-dsp {
+    width: 501px;
+    color: #6C6C6C;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.join-btn {
+    color: #FFF;
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 10px 24px;
+    background: #E02C6D;
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 16px;
+}
+
+/* Footer Related Styles */
+
+footer {
+    background: #0A0826;
+}
+
+.footer-container {
+    max-width: 75%;
+    margin: 0px auto;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.footer-title {
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.footer-dsp {
+    color:#D9DBE1;
+    font-size: 0.87rem;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.footer-image a {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.footer-image {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #1a1752;
+}
+
+/* Responsive Related Styles */
+
+/* Small Devices */
+
+@media screen and (max-width: 576px) {
+
+    nav,
+    .banner-container,
+    .join-container {
+        flex-direction: column;
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+
+    .join-container {
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    header {
+        padding: 50px 10px;
+    }
+
+    .banner-contain,
+    .join-title {
+        width: 90%;
+        text-align: center;
+    }
+
+    .banner-image {
+        width: 75%;
+    }
+
+    nav>ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .sponsor-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        border-style: none;
+        width: 100%;
+    }
+
+    .product-container {
+        grid-template-columns: 1fr;
+        max-width: 90%;
+    }
+
+    .product-list img {
+        width: 100%;
+    }
+
+    .product-list {
+        padding: 20px;
+    }
+
+
+}
+
+/* Medium Devices */
+
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    .product-container {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 90%;
+    }
+
+    .join-container {
+        flex-direction: column;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    header {
+        padding: 50px 30px;
+    }
+
+    .banner-container {
+        flex-direction: column-reverse;
+        width: 100%;
+        text-align: center;
+    }
+
+    .banner-contain {
+        width: 90%;
+    }
+
+    .sponsor-container {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        border-style: none;
+        width: 100%;
+    }
