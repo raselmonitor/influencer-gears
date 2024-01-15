@@ -292,6 +292,7 @@ footer {
     .join-container {
         flex-direction: column-reverse;
         text-align: center;
+        width: 100%;
     }
 
     
@@ -312,6 +313,11 @@ footer {
     .join-dsp{
         width: 100%;
     }
+
+    .join-img{
+        width: 100%;
+    }
+
     .banner-image {
         width: 75%;
     }
