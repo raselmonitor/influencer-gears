@@ -263,8 +263,11 @@ footer {
 }
 
 .footer-image {
-    width: 35px;
-    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     background-color: #1a1752;
 }
@@ -291,16 +294,24 @@ footer {
         text-align: center;
     }
 
+    
+
     header {
         padding: 50px 10px;
     }
 
-    .banner-contain,
-    .join-title {
+    .banner-contain {
         width: 90%;
         text-align: center;
     }
 
+    .join-title{
+        width: 100%;
+    }
+
+    .join-dsp{
+        width: 100%;
+    }
     .banner-image {
         width: 75%;
     }
@@ -344,6 +355,7 @@ footer {
     }
 
     .join-container {
+        width: 100%;
         flex-direction: column;
         flex-direction: column-reverse;
         text-align: center;
